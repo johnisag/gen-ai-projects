@@ -1,8 +1,7 @@
-import requests
+import gradio as gr
+import numpy as np
 from PIL import Image
 from transformers import AutoProcessor, BlipForConditionalGeneration
-
-# Load the pretrained processor and model
 
 # It wraps a BLIP image processor and an OPT/T5 tokenizer into a single processor.
 processor = AutoProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
