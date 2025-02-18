@@ -1,0 +1,3 @@
+```
+pip install transformers torch gradio langchain ibm_watson_machine_learning huggingface-hub
+```
